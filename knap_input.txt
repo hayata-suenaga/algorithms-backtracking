@@ -1,0 +1,45 @@
+diamond ring
+5
+1000
+TV
+1000
+400
+sandwich
+10
+2
+textbook
+160
+47
+pencils
+10
+1
+notebook
+12
+2
+stuffed animal
+32
+5
+filing cabinet
+320
+30
+stinky tennis shoes
+16
+4
+penny collection
+480
+20
+painting
+160
+3000
+rock collection
+3200
+256
+butcher knife
+16
+4
+lollipops
+48
+3
+fish tank
+500
+45
