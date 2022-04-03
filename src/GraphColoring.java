@@ -30,9 +30,14 @@ public class GraphColoring {
         results.forEach(coloring -> System.out.println(Arrays.toString(coloring)));
 
         /* P.226 Example 5.5 */
+        final String[] colors = {"red", "green", "white"};
         results = colorGraph(eg55Graph, eg55NumOfColors);
         System.out.println("Number of colorings: " + results.size());
-        results.forEach(coloring -> System.out.println(Arrays.toString(coloring)));
+        List<Object[]> resultsInText =
+                results.stream().map(
+                        coloring -> Arrays.stream(coloring).mapToObj(selection -> colors[selection]).toArray()
+                ).toList();
+        resultsInText.forEach(coloring -> System.out.println(Arrays.toString(coloring)));
 
         /* P. 226 Example 5.5 No solution with two colors */
         results = colorGraph(eg55Graph, eg55AnotherNumOfColors);
